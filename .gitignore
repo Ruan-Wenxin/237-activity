@@ -1,0 +1,13 @@
+
+# Dependencies
+node_modules/
+
+# Database credentials
+**/config/db.js
+
+# Environment files
+.env
+.env.*
+
+# Local files
+.DS_Store
