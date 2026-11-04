@@ -16,6 +16,8 @@ app.use(session({
   saveUninitialized: true
 }));
 
+app.use(express.json());
+
 app.use('/', require('./routes/homeRoutes'));
 app.use('/', require('./routes/authRoutes'));
 app.use('/', require('./routes/adminRoutes'));
